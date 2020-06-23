@@ -89,7 +89,7 @@ namespace Mediati.AspNetCore.Extensions
             => parameterInfos.Select(p => GetParameter(p, current, provider)).ToArray();
 
 
-        private static object GetParameter(ParameterInfo parameterInfo, object? current, IServiceProvider provider)
+        private static object GetParameter(ParameterInfo parameterInfo, object current, IServiceProvider provider)
         {
             var parameterType = parameterInfo.ParameterType;
             if (parameterType.IsGenericType && parameterType.GetGenericTypeDefinition() == typeof(IHandler<,>))
