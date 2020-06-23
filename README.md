@@ -160,7 +160,7 @@ Pipelines can be attached to command, query or event handler classes. I.e. The c
 
 ```c#
 [WrapError]
-public class Command : ICommand<string> 
+public class XYZCommandHandler : ICommandHandler<CommandXYZ, string> 
 {
     ...
 }

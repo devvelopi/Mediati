@@ -4,11 +4,11 @@ using Mediati.Example.Pipelines;
 
 namespace Mediati.Example.Commands
 {
-    [WrapError]
     public class Command : ICommand<string>
     {
         public string X { get; set; }
         
+        [WrapError]
         internal class Handler : ICommandHandler<Command, string>
         {
             public async Task<string> Handle(Command message)
