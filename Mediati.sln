@@ -17,6 +17,10 @@ ProjectSection(SolutionItems) = preProject
 	.gitignore = .gitignore
 EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{D7A71737-E949-40A1-B4F6-B27B93E1855F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediati.Example", "Mediati.Example\Mediati.Example.csproj", "{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,20 @@ Global
 		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x64.Build.0 = Release|Any CPU
 		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x86.ActiveCfg = Release|Any CPU
 		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x86.Build.0 = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|x64.Build.0 = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C00F637-7AD8-43A2-9B3B-7CB50D37F04F} = {D7A71737-E949-40A1-B4F6-B27B93E1855F}
 	EndGlobalSection
 EndGlobal
