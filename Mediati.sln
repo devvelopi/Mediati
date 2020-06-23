@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediati.Core", "Mediati.Core\Mediati.Core.csproj", "{F61434D0-3F23-4EDF-B030-7F7457C798F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediati.AspNetCore", "Mediati.AspNetCore\Mediati.AspNetCore.csproj", "{51A0D716-BF47-4EA9-8017-319539482771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{60C6DF5D-4144-4051-A2F7-2C6DE4AC79E9}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{9092C3E2-FD5D-4DB4-9C3E-11B62ADE98C3}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|x64.Build.0 = Release|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F61434D0-3F23-4EDF-B030-7F7457C798F7}.Release|x86.Build.0 = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|x64.Build.0 = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Debug|x86.Build.0 = Debug|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x64.ActiveCfg = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x64.Build.0 = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x86.ActiveCfg = Release|Any CPU
+		{51A0D716-BF47-4EA9-8017-319539482771}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
