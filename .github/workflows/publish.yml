@@ -1,0 +1,26 @@
+﻿name: Publish Packages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.101
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build Mediati.Core --configuration Release --no-restore
+      - name: Test
+        run: dotnet test
+      - name: Publish
+        uses: brandedoutcast/publish-nuget@v2.5.2
+        with:
+          PROJECT_FILE_PATH: Mediati.Core/Mediati.Core.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}

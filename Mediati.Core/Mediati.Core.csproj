@@ -2,6 +2,15 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Implementation of the mediator pattern. Supporting attribute based pipelines, commands, event and queries.</Description>
+        <PackageProjectUrl>https://github.com/jaseaman/Mediati</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jaseaman/Mediati</RepositoryUrl>
+        <PackageTags>mediator cqrs</PackageTags>
+        <PackageId>Mediati.Core</PackageId>
+        <SignAssembly>true</SignAssembly>
+        <Version>0.1.0</Version>
+        <Title>Mediati Core</Title>
     </PropertyGroup>
 
 </Project>
